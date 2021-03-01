@@ -6,7 +6,7 @@ This code uses **ERFNet [[HERE]](https://github.com/Eromera/erfnet_pytorch)**. T
  
 ## Requirements :
 
-[**The Cityscapes dataset**](https://www.cityscapes-dataset.com/): Download the "leftImg8bit" and "gtFine". You need to use [conversor](https://github.com/mcordts/cityscapesScripts). (To use the conversor you just set the gtFine file under the cityscapesScripts file and run the **createTrainIdLabelImgs.py**.)
+[**The Cityscapes dataset**](https://www.cityscapes-dataset.com/): Download the "leftImg8bit" and "gtFine". You need to use **[conversor](https://github.com/mcordts/cityscapesScripts)** because for training you should use "_labelTrainIds". (To use the conversor you just set the gtFine file under the cityscapesScripts file and run the **createTrainIdLabelImgs.py**.)
 
 ## Dataset :
 
